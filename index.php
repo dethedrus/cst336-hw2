@@ -12,10 +12,11 @@
     <body>
     <h1 class = "title">Canst thou defeat<br>
     Ye Olde Slotte Machinerarium?</h1>
-    <h3 class = "instr">For matches three, a pile for gold for ye! (100)<br>
+    <h3 class = "instr">For matches three, a pile for gold for ye! (10x)<br>
     <em>also works for two pairs</em><br><br>
-    If match only twain, less gold shall ye claim! (25)<br></h3>
-    <h2 class = "pulsate"><strong>If truly heroic be ye, match all ye see...<br>for a king's ransom! (500)</strong></h2>
+    If match only twain, less gold shall ye claim! (5x)<br></h3>
+    <h2 class = "pulsate"><strong>If truly heroic be ye, match all ye see...<br>for a king's ransom! (25x)</strong></h2>
+    <br>
     </body>
     
     <br>
@@ -30,8 +31,11 @@
     <br><br>
     
     <div class = "container">
-        <h2 id = "Round"></h3>
         <button class = "btn">Play</button>
-        <h1 id = "Total"></h2>
+        <input type = "number" maxlength = "1" style = 'width: 3em' id = "bet" value = "1" min = "1" max = "9">
+        <label for = "bet">Submit thy wager</label>
+        <br>
+        <h2 id = "Round"></h2>
+        <h1 class = "win" id = "Total"></h1>
     </div>
 </html>
