@@ -1,0 +1,78 @@
+body
+{
+    text-align:center;
+    font-family: MedievalSharp;
+    color:white;
+    background-image: url("../img/stone-wall.svg");
+    background-repeat: repeat;
+}
+
+header
+{
+    text-align:center;
+}
+
+.title
+{
+    background-color: gray;
+    opacity: .85;
+    color: orange;
+}
+
+.win
+{
+    color: gold;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+    color: gold;
+}
+
+@-webkit-keyframes pulsate {
+    0%
+    { 
+        opacity: 0.75;
+        font-size: 150%;
+    }
+    50%
+    { 
+        opacity: 1.0;
+        font-size: 150%;
+    }
+    100%
+    { 
+        opacity: 0.75;
+        font-size: 150%;
+    }
+}
+
+.wheels
+{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    margin: auto;
+}
+
+button
+{
+    background: url(../img/button.svg) no-repeat;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: x-large;
+    width: 128px;
+    height: 128px;
+    font-family: MedievalSharp;
+    color:white;
+}
+
+.container
+{
+    display: inline-block;
+    justify-content: center;
+    
+}
